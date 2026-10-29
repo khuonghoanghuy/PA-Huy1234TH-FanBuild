@@ -1,0 +1,119 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [-5, 0],
+			"anim": "idle",
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-63, -11],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "MissL",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-30, -50],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "MissD",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-29, 77],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "MissU",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-45, -4],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "MissR",
+			"indices": []
+		},
+		{
+			"offsets": [-86, -9],
+			"indices": [0, 1, 2, 3, 4, 5],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "left0"
+		},
+		{
+			"offsets": [-86, -9],
+			"indices": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+			"fps": 24,
+			"anim": "singLEFTend",
+			"loop": false,
+			"name": "left0"
+		},
+		{
+			"offsets": [-31, 54],
+			"indices": [0, 1, 2, 3, 4, 5],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "up0"
+		},
+		{
+			"offsets": [-31, 54],
+			"indices": [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+			"fps": 24,
+			"anim": "singUPend",
+			"loop": false,
+			"name": "up0"
+		},
+		{
+			"offsets": [-13, 2],
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "right0"
+		},
+		{
+			"offsets": [-13, 2],
+			"indices": [8, 9, 10, 11, 12, 13, 14, 15, 16, 17],
+			"fps": 24,
+			"anim": "singRIGHTend",
+			"loop": false,
+			"name": "right0"
+		},
+		{
+			"offsets": [-98, -39],
+			"indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "down0"
+		},
+		{
+			"offsets": [-98, -39],
+			"indices": [11, 12, 13, 14, 15, 16, 17],
+			"fps": 24,
+			"anim": "singDOWNend",
+			"loop": false,
+			"name": "down0"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/cropbf",
+	"position": [90, 420],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [49, 176, 209],
+	"camera_position": [80, -80],
+	"sing_duration": 4,
+	"scale": 1.4,
+	"_editor_isPlayer": true
+}

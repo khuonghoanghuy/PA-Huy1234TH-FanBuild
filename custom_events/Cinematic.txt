@@ -1,0 +1,3 @@
+Set the Cinematic Border
+Value 1: The y position
+Value 2: Time to appear (as second)

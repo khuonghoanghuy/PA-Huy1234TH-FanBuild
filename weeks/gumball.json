@@ -1,0 +1,27 @@
+{
+	"songs": [
+		[
+			"Child's Play Randomness Mix",
+			"gumball_fake",
+			[
+				82,
+				165,
+				235
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"storyName": "VS Gumball",
+	"weekName": "Gumball Week (The Glitch)",
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

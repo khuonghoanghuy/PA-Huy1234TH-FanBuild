@@ -1,8 +1,8 @@
 #pragma header
 
     uniform float uTime;
-    uniform float iMouseX;
-    uniform int NUM_SAMPLES;
+    const float iMouseX = 500.0;
+    const int NUM_SAMPLES = 3;
     uniform float glitchMultiply;
     
     float sat(float t) {
@@ -99,7 +99,7 @@
         {
             float t = float(i) * RCP_NUM_SAMPLES_F;
             uv.x = sat( uv.x + ofs * t );
-            vec4 samplecol = flixel_texture2D( bitmap, uv );
+            vec4 samplecol = texture2D( bitmap, uv );
             vec3 s = spectrum_offset( t );
             samplecol.rgb = samplecol.rgb * s;
             sum += samplecol;

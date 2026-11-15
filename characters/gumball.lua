@@ -1,4 +1,4 @@
-local drainAmount = 0.023
+local drainAmount = 0.013
 local minHealth = 0.01
 
 function opponentNoteHit(id, direction, noteType, isSustainNote)
